@@ -19,6 +19,18 @@ h2 {
 
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
+.label{
+  color: brown;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.label:hover{
+  transform: scale(1.5);
+  text-transform: uppercase;
+  color: red;
+
+}
 
 .flag {
   height: 300px;
@@ -32,6 +44,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -56,8 +69,25 @@ h2 {
 }
 
 /* Colors */
-
+.white.twovert{
+  background-color: white;
+}
+.red.twovert{
+  background-color: red;
+}
 /* QUESTION 1 */
+
+.red.threevert{
+  background-color: red;
+}
+
+.red.threevert#white{
+  background-color: white;
+}
+
+.light-blue.threevert{
+  background-color: #51ADDA;
+}
 
 .orange {
   background-color: orange;
@@ -95,44 +125,55 @@ h2 {
 
 .thailand-red {
   /* TODO */
+  background-color:#B5002D;
+  height:16.7%;
 }
 
 .thailand-white {
   /* TODO */
+  background-color: white;
+  height: 16.7%;
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: #2E2A4C;
+  height: 33.3%;
 }
 
 /* END QUESTION 2 */
 
 /* BEGIN QUESTION 3 */
 
-.romania-blue {
+.romania-blue.threehoriz {
   background-color: #002c84;
+
 }
 
-.romania-yellow {
+.romania-yellow.threehoriz {
   background-color: #ffcf00;
 }
 
-.romania-red {
+.romania-red.threehoriz {
   background-color: #e10017;
 }
 
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
-.mexico-green {
+.mexico-green.threehoriz{
   background-color: #006341;
 }
 
-.mexico-img {
+.mexico-img.threehoriz {
   /* TODO */
+  align-self: center;
+  padding: 3%;
+  background-color: white;
 }
 
-.mexico-red {
+
+.mexico-red.threehoriz{
   background-color: #ce1126;
 }
 
@@ -150,11 +191,13 @@ h2 {
 .flag1 {
   background-color: red;
   /* TODO */
+  margin:10px;
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
+  margin: 10px;
 }
 /* For padding practice */
 .padding-container {
@@ -162,4 +205,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding: 60px;
 }
